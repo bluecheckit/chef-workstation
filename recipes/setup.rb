@@ -1,4 +1,4 @@
-['tree','ntp'].each do |p|
+['tree','ntp','git'].each do |p|
   package p do
     action :install
   end
